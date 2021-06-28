@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset='utf-8'>
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style-main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style-grid.css" type="text/css" media="all">
+</head>
+
+<body class="site">
+
+    <header class="header">
+        <a href="index.html " class="site-logo " aria-label="homepage "><img class="site-logo" src="images/logo.png" alt="Maiza Rehan "></a>
+        <navclass="main-nav">
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="index.html#aboutme" class="nav__link">About Me</a></li>
+                <li class="nav__list-item"><a href="index.html#projects" class="nav__link">Personal Projects</a></li>
+                <li class="nav__list-item"><a href="cv.html" class="nav__link">CV</a></li>
+                <li class="nav__list-item"><a href="hobbies.html" class="nav__link">Hobbies</a></li>
+            </ul>
+            </nav>
+    </header>
+    <!-- .masthead -->
+
+    <section class="home-intro" id="headertransition">
+        <div>
+            <div>
+                <img src="images/logo.png" style="width: 200px;  margin-right: auto;
+    margin-left: auto;" alt="Maiza Rehan Logo">
+                <h1 class="welcome fade-in">Maiza Rehan Web Blog</h1>
+            </div>
+        </div>
+    </section>
+
+    <figure id="aboutme" class="profile fade-in">
+        <img src="images/maiza.jpeg" alt="Profile Picture">
+    </figure>
+
+    <main class="content slide-in from-right">
+        <h2 class=titles>Who am I</h2>
+        <div class="square"></div>
+        <p style="text-align: left;">Strong willed and highly inquisitive 20-year-old with good sense of humour. 😊 I am aspiring to enter into the world of Software Development.</p>
+        <p style="text-align: left;">I take pride in the work I do. My personal motto is:
+            <blockquote><em>If it's a job worth doing, it's a job worth doing right!</em></blockquote> Following this line of thought, I try to put my best effort into even the most menial tasks.
+        </p>
+    </main>
+
+    <section class="buckets fade-in">
+        <h3 class=titles id=hist>Brief History</h3>
+        <div class="square-pb"></div>
+        <ul>
+            <li>
+                <img src="images/pakistan.jpg" alt="pakistan">
+                <div class="bucket">
+                    <h3 class="bucket-title">Karachi, Pakistan</h3>
+                    <p>I was born in Karachi, Pakistan. I only stayed there until the age of 7 before moving to Singapore. In December of 2019, I payed a visit to my hometown and family again. It was an exciting experience and I enjoyed the rare opportunity
+                        of speaking in my native language!
+                    </p>
+                </div>
+                <!-- .bucket -->
+            </li>
+            <li>
+                <img src="images/singapore.jpg" alt="singapore">
+                <div class="bucket">
+                    <h3 class="bucket-title">Singapore, Singapore</h3>
+                    <p>Growing up in Singapore, I learnt to adapt to a new environment at a young age. I went through my primary and secondary school education there. I picked up basic Mandarin too. I moved to New Zealand in January of 2018 in order to attend
+                        University.
+                    </p>
+                </div>
+                <!-- .bucket -->
+            </li>
+            <li>
+                <img src="images/wellington.jpg" alt="wellington">
+                <div class="bucket">
+                    <h3 class="bucket-title">Wellington, New Zealand</h3>
+                    <p>I am currently persuing my Bachelor's in Science, Majoring in Computer Science and Psychology at Victoria University of Wellington. I am trying to gain as much experience as I can, and make friends along the way! 🎉 I feel very adjusted
+                        and at home in Wellington.</p>
+                </div>
+                <!-- .bucket -->
+            </li>
+        </ul>
+    </section>
+    <!-- .buckets -->
+
+    <!-- MY PROJECTS -->
+    <main id="projects" class="myprojects">
+        <h2 class=titles>Personal Projects</h2>
+        <div class="square"></div>
+    </main>
+    <main class="projcontent fade-in">
+        <h4>All of these projects and more can be found on my github page.</h4>
+        <p style="text-align: center;"><a href="https://github.com/mai-gitt" style="color: #cde4f4">https://github.com/mai-gitt</a></p>
+    </main>
+    <figure class="blocked slide-in from-left ">
+        <img src="images/blockedsites.png" width="350" height="400" alt="blocked_sites.png">
+    </figure>
+    <figure class="adblockpng slide-in from-right">
+        <img src="images/adblocker.png" width="350" height="500" alt="adblocker.png">
+    </figure>
+    <figure class="blocked_message slide-in from-right">
+        <img src="images/blockedmessage.png" width="350" height="300px" alt="blocked_message.png">
+    </figure>
+    <main class="adbcontent slide-in from-right">
+        <h3 class=titles>AdBlocker</h3>
+        <div class="square-pb"></div>
+        <p>I made this simple adblocker using JavaScript. The adblocker is a chrome extension and works by blocking requests sent to the sites listed on the left.</p>
+        <p>It is very simple, as it can only block ads from the list of sites. Therefore, it could better function as a parental control on children's web activities, by blocking a list of sites determined by the parents.</p>
+        <p>When a user is trying to access a site which is blocked by the extension, they are greeted with the error message on the right.</p>
+    </main>
+    <main class="game slide-in from-left">
+        <div class="inline" id="Score">Score: </div>
+        <div class="inline" id="score">0</div>
+        <canvas id="snakeboard" width="450" height="450"></canvas>
+        <script src="js/snake.js"></script>
+    </main>
+    <main class="game_content slide-in from-right">
+        <h3 class=titles>Snake Game</h3>
+        <div class="square-pb"></div>
+        <p>On the left is the snake game which I coded in HTML and JavaScript. </p>
+        <p>Before building this website, I had little to no experience with web development, or even coding with HTML, CSS or JavaScript. My main objective for this mini project was to gain a better grasp on programming with JavaScript.</p>
+        <p>Building this simple snake game was a fun and encouraging way for me to learn a new skill.</p>
+        <p style="color: #1A2656; background-color: rgba(249, 189, 181, 0.3); padding: 10px; ">NOTE:<br> This game does not function on mobile devices.<br></p>
+    </main>
+    <section class="todo-list add-padding slide-in from-right">
+        <div id="myDIV" class="todo">
+            <h2 style="color: white;">TODO LIST</h2>
+            <input class="text-input" type="text" id="myInput" placeholder="I have to...">
+            <span onclick="newElement()" class="addBtn">ADD</span>
+        </div>
+        <ul id="myUL">
+            <li>Buy milk</li>
+            <li class="checked">Walk dog</li>
+            <li>Dinner with friend</li>
+            <li>Laundry</li>
+            <li>Feed cat</li>
+            <li>Finish assignment</li>
+        </ul>
+        <script src="js/todo.js"></script>
+    </section>
+    <main class="todo_content add-padding2 slide-in from-left">
+        <h3 class=titles>Todo List</h3>
+        <div class="square-pb"></div>
+        <p>This is a simple todo list made using HTML, CSS and JavaScript.</p>
+        <p>This todo list was one of my first personal projects.</p>
+        <p>Since I had no clue how to use JavaScript, I followed a tutorial to accomplish my goal.</p>
+    </main>
+
+    <footer class="colophon add-padding">
+        <aside><em>Find Me Here:</aside>
+        <div class=footer-list>
+            <a href="mailto:maiza.rehan@outlook.com?subject=Blog Feedback" class=footer-links>
+                <img src="images/emailicon.png" width="40" height="40" alt="Email: maiza.rehan@outlook.com">
+            </a>
+        </div>
+        <div class=footer-list>
+            <a href="https://app.summeroftech.co.nz/students/caa8b1156f6e8bdbc9e3a13bbf1be6b8" class=footer-links>
+                <img src="images/sotlogo.png" alt="Summer of Tech">
+            </a>
+        </div>
+        <div class=footer-list>
+            <a href="https://www.linkedin.com/in/maiza-rehan-92a906187" class=footer-links>
+                <img src="images/linkedinicon.png" alt="LinkedIn: Maiza Rehan">
+            </a>
+        </div>
+        <div class=footer-list>
+            <a href="https://github.com/mai-gitt" class=footer-links>
+                <img src="images/githubicon.png" alt="Github: mai-gitt">
+            </a>
+        </div>
+    </footer>
+    <script src="js/transitions.js"> </script>
+</body>
+
+
+</html>

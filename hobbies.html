@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset='utf-8'>
+    <title>Hobbies</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style-main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style-grid.css" type="text/css" media="all">
+</head>
+
+<body class="site">
+
+    <header class="header">
+        <a href="index.html " class="site-logo " aria-label="homepage "><img class="site-logo" src="images/logo.png" alt="Maiza Rehan "></a>
+        <nav class="main-nav ">
+            <ul class="nav__list ">
+                <li class="nav__list-item "><a href="index.html#aboutme " class="nav__link ">About Me</a></li>
+                <li class="nav__list-item "><a href="index.html#projects " class="nav__link ">Personal Projects</a></li>
+                <li class="nav__list-item "><a href="cv.html " class="nav__link ">CV</a></li>
+                <li class="nav__list-item "><a href="hobbies.html " class="nav__link ">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- .masthead -->
+    <figure class="headerpic">
+        <img src="css/background1.png">
+    </figure>
+
+    <main class="garden">
+        <h3 class="title slide-in from-left">Indoor Gardening</h3>
+        <div class="square-pb slide-in from-right"></div>
+        <p id="headertransition" class="slide-in from-left">One of my hobbies is taking care of my plants. I maintain these plants every watering them, making sure they have enough sunlight and fertilising them ocassionally. I like making sure to keep to a schedule for them.</p>
+        <p class="slide-in from-left"> Here are a few members of my plant family 💚: </p>
+        <div class="row fade-in">
+            <div class="col">
+                <img src="plantpics/Ada.jpeg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="plantpics/Skyler.jpeg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="plantpics/Princess Diana.jpeg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="plantpics/Gumby.jpeg" onclick="openLightbox();toSlide(4)" class="hover-shadow preview">
+            </div>
+        </div>
+        <div class="row fade-in">
+            <div class="col">
+                <img src="plantpics/Heather.jpeg" onclick="openLightbox();toSlide(5)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="plantpics/Wanda.jpeg" onclick="openLightbox();toSlide(6)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="plantpics/Jericho.jpeg" onclick="openLightbox();toSlide(7)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="plantpics/Gurdy.jpeg" onclick="openLightbox();toSlide(8)" class="hover-shadow preview">
+            </div>
+        </div>
+
+        <div id="Lightbox" class="modal">
+            <div class="modal-content">
+                <span class="closelb" onclick="closeLightbox()">&times;</span>
+                <div class="slide">
+                    <img src="plantpics/Ada.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="plantpics/Skyler.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="plantpics/Princess Diana.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="plantpics/Gumby.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="plantpics/Heather.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="plantpics/Wanda.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="plantpics/Jericho.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="plantpics/Gurdy.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="coffee&stitch/ram.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="coffee&stitch/leaf.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="coffee&stitch/catboy.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="coffee&stitch/heart.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="coffee&stitch/1.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="coffee&stitch/2.jpeg" class="image-slide">
+                </div>
+                <div class="slide">
+                    <img src="coffee&stitch/3.jpeg" class="image-slide">
+                </div>
+
+                <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+        </div>
+    </main>
+    <main class="stitch">
+        <h3 class="title slide-in from-left">Sewing and Simple Embroidery</h3>
+        <div class="square-pb slide-in from-left"></div>
+        <p class="slide-in from-right"> I occasionally also embark on creative projects like making a stuff toy or a collar for my cat. I have also started learning basic embroidery. </p>
+        <div class="row fade-in">
+            <div class="col">
+                <img src="coffee&stitch/ram.jpeg" onclick="openLightbox();toSlide(9)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="coffee&stitch/leaf.jpeg" onclick="openLightbox();toSlide(10)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="coffee&stitch/catboy.jpeg" onclick="openLightbox();toSlide(11)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="coffee&stitch/heart.jpeg" onclick="openLightbox();toSlide(12)" class="hover-shadow preview">
+            </div>
+        </div>
+    </main>
+    <main class="coffee">
+        <h3 class="title slide-in from-left">Latte Art</h3>
+        <div class="square-pb slide-in from-right"></div>
+        <p class="slide-in from-left"> I don't personally drink coffee. However, while working at cafes in the past, I decided to pick up the skill of latte art. I am not the best at it, but here are some of the designs I've managed to snap a picture of before giving away :)</p>
+        <div class="row fade-in">
+            <div class="col">
+                <img src="coffee&stitch/1.jpeg" onclick="openLightbox();toSlide(13)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="coffee&stitch/2.jpeg" onclick="openLightbox();toSlide(14)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="coffee&stitch/3.jpeg" onclick="openLightbox();toSlide(15)" class="hover-shadow preview">
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="colophon">
+        <aside><em>Find Me Here:</aside>
+        <div class=footer-list>
+            <a href="mailto:maiza.rehan@outlook.com?subject=Blog Feedback" class=footer-links>
+                <img src="images/emailicon.png" width="40" height="40" alt="Email: maiza.rehan@outlook.com">
+            </a>
+        </div>
+        <div class=footer-list>
+            <a href="https://app.summeroftech.co.nz/students/caa8b1156f6e8bdbc9e3a13bbf1be6b8" class=footer-links>
+                <img src="images/sotlogo.png" alt="Summer of Tech">
+            </a>
+        </div>
+        <div class=footer-list>
+            <a href="https://www.linkedin.com/in/maiza-rehan-92a906187" class=footer-links>
+                <img src="images/linkedinicon.png" alt="LinkedIn: Maiza Rehan">
+            </a>
+        </div>
+        <div class=footer-list>
+            <a href="https://github.com/mai-gitt" class=footer-links>
+                <img src="images/githubicon.png" alt="Github: mai-gitt">
+            </a>
+        </div>
+    </footer>
+    <script src="js/transitions.js"> </script>
+    <script src="js/lightbox.js"> </script>
+</body>
+
+</html>
