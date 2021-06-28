@@ -15,9 +15,10 @@
             }
             .home-intro {
                 grid-column: 1/4;
-                margin: -20px;
+                /* margin: -20px; */
                 padding: 30vh 2em;
                 font-size: 65%;
+                margin-bottom: 30px;
             }
             .colophon {
                 padding-top: 1em;
@@ -32,6 +33,7 @@
             }
             /* ABOUT ME */
             .profile {
+                margin: auto;
                 width: 310px;
                 height: auto;
                 grid-column: 1/3;
