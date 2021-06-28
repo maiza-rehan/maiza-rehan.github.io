@@ -161,6 +161,18 @@ header {
 }
 
 @media (max-width: 600px) {
+    .site-logo {
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: var(--text);
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        border-radius: 0px;
+        margin-top: -2em;
+        width: 40px;
+        margin-bottom: -50px;
+        margin-left: -10px;
+    }
     .nav__list {
         text-align: center;
         /* color: #1A2656; */
@@ -169,11 +181,11 @@ header {
         margin: 0;
         padding: 0;
         display: flex;
-        padding-left: 40px;
+        padding-left: 30px;
         margin-right: 40px;
     }
     .nav__link {
-        --spacing: 10px;
+        --spacing: 15px;
         text-decoration: none;
         color: inherit;
         display: inline-block;
