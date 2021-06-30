@@ -103,6 +103,7 @@ header {
 
 .home-intro {
     padding: 23vh 0;
+    /* background-color: #FCF1DB; */
     background-image: url('background1.png');
     font-family: "Poppins", sans-serif;
     color: #1A2656;
@@ -447,6 +448,7 @@ input {
 
 .image-slide {
     width: 100%;
+    border-radius: 30px;
 }
 
 img.hover-shadow {
