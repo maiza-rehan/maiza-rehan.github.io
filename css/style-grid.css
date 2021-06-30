@@ -230,7 +230,8 @@
                 grid-row: 6;
                 margin-left: 0px;
                 margin-top: 200px;
-                min-height: 250px;
+                width: 800px;
+                height: auto;
             }
             .lookatcat {
                 grid-row: 6;
